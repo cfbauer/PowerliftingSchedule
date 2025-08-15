@@ -85,7 +85,3 @@ The workout schedule is defined in the `workoutSchedule` object in `src/App.jsx`
 ## Contributing
 
 Feel free to submit issues, feature requests, or pull requests to improve the application.
-
-## License
-
-This project is licensed under the ISC License.
