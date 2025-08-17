@@ -265,7 +265,7 @@ function App() {
 
       {/* Schedule Display */}
       {Object.entries(workoutSchedule).map(([phaseName, weeks]) => (
-        <div key={phaseName} style={{ marginTop: '3rem' }}>
+        <div key={phaseName} className="phase-section">
           <h2>
             {phaseName}
           </h2>
