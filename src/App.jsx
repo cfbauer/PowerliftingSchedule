@@ -132,7 +132,7 @@ function App() {
       
       {/* Day 1 */}
       <div className="day-section">
-        <h4 style={{ color: '#059669', fontWeight: '600', marginBottom: '0.5rem' }}>
+        <h4>
           {weekData.day1.title}
         </h4>
         <table className="workout-table">
@@ -158,8 +158,8 @@ function App() {
       </div>
 
       {/* Day 2 */}
-      <div className="day-section" style={{ marginTop: '1.5rem' }}>
-        <h4 style={{ color: '#7c3aed', fontWeight: '600', marginBottom: '0.5rem' }}>
+      <div className="day-section">
+        <h4>
           {weekData.day2.title}
         </h4>
         <table className="workout-table">
@@ -185,8 +185,8 @@ function App() {
       </div>
 
       {/* Day 3 */}
-      <div className="day-section" style={{ marginTop: '1.5rem' }}>
-        <h4 style={{ color: '#dc2626', fontWeight: '600', marginBottom: '0.5rem' }}>
+      <div className="day-section">
+        <h4>
           {weekData.day3.title}
         </h4>
         <table className="workout-table">
@@ -215,7 +215,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 style={{ color: '#1f2937', marginBottom: '2rem' }}>
+      <h1>
         GeminiZCL 16 Week Powerlifting Calculator
       </h1>
 
@@ -266,14 +266,7 @@ function App() {
       {/* Schedule Display */}
       {Object.entries(workoutSchedule).map(([phaseName, weeks]) => (
         <div key={phaseName} style={{ marginTop: '3rem' }}>
-          <h2 style={{ 
-            fontSize: '1.5rem', 
-            fontWeight: '700', 
-            color: '#e11d48', 
-            marginBottom: '1.5rem',
-            borderBottom: '2px solid #e11d48',
-            paddingBottom: '0.5rem'
-          }}>
+          <h2>
             {phaseName}
           </h2>
           <div className="schedule-grid">
