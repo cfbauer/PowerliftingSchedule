@@ -107,6 +107,14 @@ button:focus-visible {
   font-size: 1rem;
 }
 
+.units-selection {
+  grid-column: 1 / -1;
+}
+
+.phase-section {
+  margin-bottom: 3rem;
+}
+
 .schedule-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));

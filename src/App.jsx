@@ -265,6 +265,133 @@ const workoutSchedule = {
           { name: 'Lateral Raises', percentage: null, trainingMax: null, sets: '2 x 15-20 reps' }
         ]
       }
+    },
+    {
+      week: 'Week 9',
+      day1: {
+        title: 'Day 1: Heavy Lower & Upper (Squat Focus)',
+        exercises: [
+          { name: 'Squat', percentage: 92.5, trainingMax: 1, sets: '1 rep x 4 sets +' },
+          { name: 'LP/SSB Squat', percentage: 80, trainingMax: 1, sets: '3 reps x 5 sets' },
+          { name: 'Cable Rows', percentage: null, trainingMax: null, sets: '3 x 8-10 reps' },
+          { name: 'Leg Extensions', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Hamstring Curls', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      },
+      day2: {
+        title: 'Day 2: Heavy Pull & Press (Sumo Deadlift Focus)',
+        exercises: [
+          { name: 'Sumo Deadlift', percentage: 92.5, trainingMax: 2, sets: '1 rep x 4 sets +' },
+          { name: 'OHP', percentage: 80, trainingMax: 4, sets: '3 reps x 5 sets' },
+          { name: 'Pull-ups', percentage: null, trainingMax: null, sets: '3 sets x max reps' },
+          { name: 'Face Pulls', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Triceps Pushdowns', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      },
+      day3: {
+        title: 'Day 3: Upper & Lower Volume/Accessory (Bench Focus)',
+        exercises: [
+          { name: 'BP', percentage: 92.5, trainingMax: 3, sets: '1 rep x 4 sets +' },
+          { name: 'Mach/DB Inc Press', percentage: 80, trainingMax: 3, sets: '3 reps x 5 sets' },
+          { name: 'Comp Squat', percentage: 75, trainingMax: 1, sets: '5 reps x 3 sets' },
+          { name: 'Pec Fly', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Lateral Raises', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      }
+    },
+    {
+      week: 'Week 10',
+      day1: {
+        title: 'Day 1: Heavy Lower & Upper (Squat Focus)',
+        exercises: [
+          { name: 'Squat', percentage: 95, trainingMax: 1, sets: '1 rep x 3 sets +' },
+          { name: 'LP/SSB Squat', percentage: 82.5, trainingMax: 1, sets: '2 reps x 6 sets' },
+          { name: 'Cable Rows', percentage: null, trainingMax: null, sets: '3 x 8-10 reps' },
+          { name: 'Leg Extensions', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Hamstring Curls', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      },
+      day2: {
+        title: 'Day 2: Heavy Pull & Press (Sumo Deadlift Focus)',
+        exercises: [
+          { name: 'Sumo Deadlift', percentage: 95, trainingMax: 2, sets: '1 rep x 3 sets +' },
+          { name: 'OHP', percentage: 82.5, trainingMax: 4, sets: '2 reps x 6 sets' },
+          { name: 'Pull-ups', percentage: null, trainingMax: null, sets: '3 sets x max reps' },
+          { name: 'Face Pulls', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Triceps Pushdowns', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      },
+      day3: {
+        title: 'Day 3: Upper & Lower Volume/Accessory (Bench Focus)',
+        exercises: [
+          { name: 'BP', percentage: 95, trainingMax: 3, sets: '1 rep x 3 sets +' },
+          { name: 'Mach/DB Inc Press', percentage: 82.5, trainingMax: 3, sets: '2 reps x 6 sets' },
+          { name: 'Comp Squat', percentage: 80, trainingMax: 1, sets: '5 reps x 3 sets' },
+          { name: 'Pec Fly', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Lateral Raises', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      }
+    },
+    {
+      week: 'Week 11',
+      day1: {
+        title: 'Day 1: Heavy Lower & Upper (Squat Focus)',
+        exercises: [
+          { name: 'Squat', percentage: 97.5, trainingMax: 1, sets: '1 rep x 2 sets +' },
+          { name: 'LP/SSB Squat', percentage: 85, trainingMax: 1, sets: '2 reps x 5 sets' },
+          { name: 'Cable Rows', percentage: null, trainingMax: null, sets: '3 x 8-10 reps' },
+          { name: 'Leg Extensions', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Hamstring Curls', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      },
+      day2: {
+        title: 'Day 2: Heavy Pull & Press (Sumo Deadlift Focus)',
+        exercises: [
+          { name: 'Sumo Deadlift', percentage: 97.5, trainingMax: 2, sets: '1 rep x 2 sets +' },
+          { name: 'OHP', percentage: 85, trainingMax: 4, sets: '2 reps x 5 sets' },
+          { name: 'Pull-ups', percentage: null, trainingMax: null, sets: '3 sets x max reps' },
+          { name: 'Face Pulls', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Triceps Pushdowns', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      },
+      day3: {
+        title: 'Day 3: Upper & Lower Volume/Accessory (Bench Focus)',
+        exercises: [
+          { name: 'BP', percentage: 97.5, trainingMax: 3, sets: '1 rep x 2 sets +' },
+          { name: 'Mach/DB Inc Press', percentage: 85, trainingMax: 3, sets: '2 reps x 5 sets' },
+          { name: 'Comp Squat', percentage: 82.5, trainingMax: 1, sets: '5 reps x 3 sets' },
+          { name: 'Pec Fly', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' },
+          { name: 'Lateral Raises', percentage: null, trainingMax: null, sets: '3 x 12-15 reps' }
+        ]
+      }
+    },
+    {
+      week: 'Week 12 (Deload)',
+      day1: {
+        title: 'Day 1: Deload/Taper',
+        exercises: [
+          { name: 'Squat', percentage: 75, trainingMax: 1, sets: '2 reps x 2 sets' },
+          { name: 'LP/SSB Squat', percentage: 55, trainingMax: 1, sets: '6 reps x 2 sets' },
+          { name: 'Cable Rows', percentage: null, trainingMax: null, sets: '2 x 8-10 reps' },
+          { name: 'Leg Extensions', percentage: null, trainingMax: null, sets: '2 x 12-15 reps' }
+        ]
+      },
+      day2: {
+        title: 'Day 2: Deload/Taper',
+        exercises: [
+          { name: 'Sumo Deadlift', percentage: 75, trainingMax: 2, sets: '2 reps x 2 sets' },
+          { name: 'OHP', percentage: 55, trainingMax: 4, sets: '6 reps x 2 sets' },
+          { name: 'Pull-ups', percentage: null, trainingMax: null, sets: '2 sets x low reps' }
+        ]
+      },
+      day3: {
+        title: 'Day 3: Deload/Taper',
+        exercises: [
+          { name: 'BP', percentage: 75, trainingMax: 3, sets: '2 reps x 2 sets' },
+          { name: 'Mach/DB Inc Press', percentage: 55, trainingMax: 3, sets: '6 reps x 2 sets' },
+          { name: 'Pec Fly', percentage: null, trainingMax: null, sets: '2 x 12-15 reps' }
+        ]
+      }
     }
   ],
   'Phase 2: Pre-Peak Intensification (Weeks 9-12)': [
@@ -476,6 +603,8 @@ function App() {
     4: 135  // Overhead Press
   })
 
+  const [units, setUnits] = useState('lbs')
+
   const handletrainingMaxChange = (trainingMax, value) => {
     setTrainingMaxs(prev => ({
       ...prev,
@@ -483,14 +612,28 @@ function App() {
     }))
   }
 
+  const handleUnitsChange = (newUnits) => {
+    if (newUnits === units) return
+    
+    // Convert existing training maxes to new units
+    const conversionFactor = newUnits === 'kg' ? 0.453592 : 2.20462
+    
+    setTrainingMaxs(prev => ({
+      1: Math.round((prev[1] * conversionFactor) * 10) / 10,
+      2: Math.round((prev[2] * conversionFactor) * 10) / 10,
+      3: Math.round((prev[3] * conversionFactor) * 10) / 10,
+      4: Math.round((prev[4] * conversionFactor) * 10) / 10
+    }))
+    
+    setUnits(newUnits)
+  }
+
   const calculateWeight = (percentage, trainingMax) => {
     if (!percentage || !trainingMax || !trainingMaxs[trainingMax]) {
       return '-'
     }
-    // Note: Week 13 back-off sets have a special calculation not implemented here.
-    // It's based on the AMRAP set's weight, not the training max.
-    // A note is added in the UI instead.
-    return (trainingMaxs[trainingMax] * (percentage / 100)).toFixed(1)
+    const weight = trainingMaxs[trainingMax] * (percentage / 100)
+    return Math.round(weight * 10) / 10
   }
 
   const DayCard = ({ day }) => (
@@ -501,7 +644,7 @@ function App() {
           <tr>
             <th>Exercise</th>
             <th>Sets/Reps</th>
-            <th>Weight (lbs)</th>
+            <th>Weight ({units})</th>
           </tr>
         </thead>
         <tbody>
@@ -517,11 +660,13 @@ function App() {
         </tbody>
       </table>
     </div>
-  );
+  )
 
   const WeekCard = ({ weekData }) => {
     // Dynamically find all 'day' properties in the week object
-    const days = Object.keys(weekData).filter(key => key.startsWith('day')).sort();
+    const days = Object.keys(weekData)
+      .filter(key => key.startsWith('day'))
+      .sort((a, b) => Number(a.replace('day', '')) - Number(b.replace('day', '')));
 
     return (
       <div className="week-card">
@@ -535,8 +680,9 @@ function App() {
           </p>
         )}
       </div>
-    );
+    )
   }
+
 
   return (
     <div className="container">
@@ -545,6 +691,31 @@ function App() {
       </h1>
 
       <div className="input-grid">
+        <div className="input-group units-selection radio-group">
+          <label htmlFor="units">Units:</label>
+          <div>
+            <label>
+              <input
+                type="radio"
+                name="units"
+                value="lbs"
+                checked={units === 'lbs'}
+                onChange={() => handleUnitsChange('lbs')}
+              />
+              Pounds (lbs)
+            </label>
+            <label style={{ marginLeft: '1em' }}>
+              <input
+                type="radio"
+                name="units"
+                value="kg"
+                checked={units === 'kg'}
+                onChange={() => handleUnitsChange('kg')}
+              />
+              Kilograms (kg)
+            </label>
+          </div>
+        </div>
         <div className="input-group">
           <label htmlFor="base1">Competition Squat (Training Max):</label>
           <input
@@ -552,8 +723,9 @@ function App() {
             id="base1"
             value={trainingMaxs[1]}
             onChange={(e) => handletrainingMaxChange(1, e.target.value)}
-            placeholder="280"
+            placeholder={units === 'lbs' ? '280' : '127'}
           />
+          <span style={{ fontSize: '0.9em', color: '#666' }}>{units}</span>
         </div>
         <div className="input-group">
           <label htmlFor="base2">Sumo Deadlift (Training Max):</label>
@@ -562,8 +734,9 @@ function App() {
             id="base2"
             value={trainingMaxs[2]}
             onChange={(e) => handletrainingMaxChange(2, e.target.value)}
-            placeholder="315"
+            placeholder={units === 'lbs' ? '315' : '143'}
           />
+          <span style={{ fontSize: '0.9em', color: '#666' }}>{units}</span>
         </div>
         <div className="input-group">
           <label htmlFor="base3">Bench Press (Training Max):</label>
@@ -572,8 +745,9 @@ function App() {
             id="base3"
             value={trainingMaxs[3]}
             onChange={(e) => handletrainingMaxChange(3, e.target.value)}
-            placeholder="210"
+            placeholder={units === 'lbs' ? '210' : '95'}
           />
+          <span style={{ fontSize: '0.9em', color: '#666' }}>{units}</span>
         </div>
         <div className="input-group">
           <label htmlFor="base4">Overhead Press (Training Max):</label>
@@ -582,10 +756,10 @@ function App() {
             id="base4"
             value={trainingMaxs[4]}
             onChange={(e) => handletrainingMaxChange(4, e.target.value)}
-            placeholder="135"
+            placeholder={units === 'lbs' ? '135' : '61'}
           />
+          <span style={{ fontSize: '0.9em', color: '#666' }}>{units}</span>
         </div>
-        
       </div>
 
       {/* Schedule Display */}
