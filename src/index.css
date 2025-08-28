@@ -14,7 +14,11 @@
   -webkit-text-size-adjust: 100%;
 
   --primary-color-light: #675527;
+  --primary-color-light-40: #6f5c2d;
+  --primary-color-light-60: #a48e5b;
   --secondary-color-light: #4e6359;
+  --secondary-color-light-40: #4e6359;
+  --secondary-color-light-60: #9ab0a5;
   --interface-surface-light: #fdf8f7;
   --error-light: #ba1a1a;
 
@@ -75,7 +79,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--primary-color-light-40);
 }
 button:focus,
 button:focus-visible {
@@ -208,6 +212,13 @@ button:focus-visible {
   }
   h4 {
     color: var(--secondary-color-dark)
+  }
+
+  button {
+    background-color: var(--secondary-color-dark);
+  }
+  button:hover {
+    border-color: var(--primary-color-light-40);
   }
 
   .input-group label {
